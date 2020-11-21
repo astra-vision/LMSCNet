@@ -1,0 +1,36 @@
+DATALOADER:
+  NUM_WORKERS: 4
+DATASET:
+  AUGMENTATION:
+    FLIPS: false
+  MODALITIES:
+    3D_LABEL: true
+    3D_OCCLUDED: true
+    3D_OCCUPANCY: true
+  ROOT_DIR: /datasets_local/datasets_lroldaoj/semantic_kitti_v1.0/
+  TYPE: SemanticKITTI
+MODEL:
+  TYPE: SSCNet_full
+OPTIMIZER:
+  BASE_LR: 0.001
+  BETA1: 0.9
+  BETA2: 0.999
+  MOMENTUM: NA
+  TYPE: Adam
+  WEIGHT_DECAY: NA
+OUTPUT:
+  OUT_ROOT: ../SSC_out/
+SCHEDULER:
+  FREQUENCY: epoch
+  LR_POWER: NA
+  TYPE: constant
+STATUS:
+  RESUME: false
+TRAIN:
+  BATCH_SIZE: 4
+  CHECKPOINT_PERIOD: 15
+  EPOCHS: 80
+  SUMMARY_PERIOD: 50
+VAL:
+  BATCH_SIZE: 8
+  SUMMARY_PERIOD: 20

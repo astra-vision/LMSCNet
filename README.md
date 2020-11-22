@@ -54,7 +54,10 @@ It also generates validity masks as such resolutions to consider the loss on kno
 as in original scale data. All information will be stored in the same format and respective location
 than the semanticKITTI provided data with new file extensions (`file.label_1_X` and `file.invalid_1_X`).
 
-Please run the `LMSCNet/data/labels_downscale.py` as follows:
+If you are using **v1.1** of the dataset, you can download the data directly from [here](https://www.rocq.inria.fr/rits_files/download.php?file=computer-vision/lmscnet/semanticKITTI_v1.1_dscale.zip).
+Please extract the data into the semanticKITTI root folder. 
+
+Otherwise, you need to generate the data by running the `LMSCNet/data/labels_downscale.py` as follows:
 ```
 $ cd <root dir of this repo>
 $ python LMSCNet/data/labels_downscale.py --dset_root <path/dataset/root>

@@ -72,7 +72,7 @@ config_dict['STATUS']['RESUME'] = False
 config_dict['TRAIN'] = {}
 config_dict['TRAIN']['BATCH_SIZE'] = 4
 config_dict['TRAIN']['CHECKPOINT_PERIOD'] = 15
-config_dict['TRAIN']['EPOCHS'] = 4
+config_dict['TRAIN']['EPOCHS'] = 80
 config_dict['TRAIN']['SUMMARY_PERIOD'] = 50
 # -------------------------------------------------------------
 

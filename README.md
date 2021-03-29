@@ -40,7 +40,7 @@ $ conda install pytorch torchvision cudatoolkit=10.0 -c pytorch
 
 Then clone this repository in desired location
 ```
-$ git clone https://gitlab.inria.fr/lroldaoj/lmscnet
+$ git clone https://github.com/cv-rits/LMSCNet
 ```
 
 ### Dataset

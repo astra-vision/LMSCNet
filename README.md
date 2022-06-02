@@ -1,6 +1,7 @@
 # LMSCNet: Lightweight Multiscale 3D Semantic Completion
-
 Official repository.  
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lmscnet-lightweight-multiscale-3d-semantic/3d-semantic-scene-completion-on-semantickitti)](https://paperswithcode.com/sota/3d-semantic-scene-completion-on-semantickitti?p=lmscnet-lightweight-multiscale-3d-semantic)
 
 ## Paper
 ![alt text](teaser.png "LMSCNet")
